@@ -1,7 +1,7 @@
-db_info = {'host': 'ayalganem.mysql.pythonanywhere-services.com',
-           'database': 'my_project',
-           'psw': 'getthere',
-           'user': 'ayalganem',
+db_info = {'host': 'localhost',
+           'database': 'bookstore',
+           'psw': '1234',
+           'user': 'postgres',
            'port': ''}
 
 
