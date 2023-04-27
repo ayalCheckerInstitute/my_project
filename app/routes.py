@@ -11,7 +11,7 @@ def main_page(book_id):
 
     return "hello"
 
-
+@flask_app.route('/')
 def get_all_books():
     return [{"book_id": book.book_id, "title": book.title} for book in Book.query.all()]
 
